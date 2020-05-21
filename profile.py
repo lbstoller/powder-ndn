@@ -39,7 +39,7 @@ pnode = request.RawPC('pnode')
 pnode.hardware_type = GLOBALS.PNODE_D740
 
 # configure VMs and links here:
-node1 = mkVM('node1', GLOBALS.UBUNTU18_IMG, cores=4, ram=26)
+node1 = mkVM('node1', GLOBALS.UBUNTU18_IMG, cores=4, ram=13)
 node2 = mkVM('node2', GLOBALS.UBUNTU18_IMG, cores=4, ram=8)
 node3 = mkVM('node3', GLOBALS.UBUNTU18_IMG, cores=4, ram=8)
 node4 = mkVM('node4', GLOBALS.UBUNTU18_IMG, cores=4, ram=8)
